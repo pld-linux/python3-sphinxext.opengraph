@@ -1,4 +1,5 @@
 Summary:	Sphinx extension to generate unique OpenGraph metadata
+Summary(pl.UTF-8):	Rozszerzenie Sphinksa do generowania unikatowych metadanych OpenGraph
 Name:		python3-sphinxext.opengraph
 Version:	0.9.1
 Release:	1
@@ -19,6 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Sphinx extension to generate unique OpenGraph metadata.
+
+%description -l pl.UTF-8
+Rozszerzenie Sphinksa do generowania unikatowych metadanych OpenGraph.
 
 %prep
 %setup -q -n sphinxext-opengraph-%{version}
